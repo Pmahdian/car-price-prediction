@@ -86,8 +86,33 @@ flowchart TD
 ---
 
 ## **7. Appendices**  
-- **Dataset Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)  
+- **Dataset Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data)
+  ---
+
+### **📂 Project Structure**
+```bash
+car_price_prediction/
+├── data/
+│   ├── raw/                   # Raw data files
+│   │   └── used_cars.csv      # Main dataset file
+│   └── processed/             # Processed data
+│       ├── train.csv          # Training data
+│       └── test.csv           # Test data
+├── models/
+│   ├── xgboost_model.pkl      # Saved XGBoost model
+│   └── random_forest.pkl      # Saved Random Forest model
+├── notebooks/
+│   ├── EDA.ipynb             # Exploratory Data Analysis
+│   └── Model_Training.ipynb  # Model experiments
+├── src/
+│   ├── data_preprocessing.py # Data cleaning script
+│   ├── train_model.py        # Model training script
+│   ├── predict.py           # Prediction script
+│   └── app.py               # Flask API
+├── tests/                   # Unit tests
+├── requirements.txt         # Python dependencies
+└── README.md               # Project documentation
+```
 
 
----
 
