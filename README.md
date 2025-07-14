@@ -1,6 +1,3 @@
-Here’s the **Software Requirements Specification (SRS) Document** for the **Used Car Price Prediction System**, formatted in clear English with technical details:
-
----
 
 # **Software Requirements Specification (SRS)**  
 **Project**: Used Car Price Prediction System  
